@@ -1,5 +1,4 @@
 // File: main.js (Versi Lengkap dan Final)
-
 document.addEventListener("DOMContentLoaded", function() {
      
     // Fungsi untuk memuat komponen (header/footer)
