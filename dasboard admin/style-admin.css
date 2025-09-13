@@ -1,0 +1,48 @@
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d1d5db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4b5563;
+    font-weight: bold;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+/* Style untuk tabel agar lebih rapi */
+th,
+td {
+    padding: 12px 16px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9fafb;
+}
+
+/* Style untuk area drag & drop upload video */
+.drop-zone {
+    border: 2px dashed #cbd5e1;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.drop-zone.dragover {
+    background-color: #f0f9ff;
+    border-color: #3b82f6;
+}
+
+/* Style untuk memberi warna pada bintang rating */
+.star-filled {
+    color: #facc15;
+    /* Kode warna untuk Tailwind 'yellow-400' */
+}
